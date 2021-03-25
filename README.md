@@ -1,6 +1,6 @@
 # repro-cxxopts-msan-warning
 
-Reproduces Clang Memory Sanitizer warnings related to global variables in cxxopts 2.2.1. Reported to maintainers as <TODO>.
+Reproduces Clang Memory Sanitizer warnings related to global variables in cxxopts 2.2.1. Reported to maintainers as https://github.com/jarro2783/cxxopts/issues/281.
 
 Clang Memory Sanitizer reports numerous warnings when trying to include `cxxopts.hpp` into the project. The simplest affected program is as follows:
 
